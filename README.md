@@ -28,7 +28,7 @@ Here's How
 * Issue command `source classpath.sh`
 * gvim, and you are on your way.
 * Use `:TagbarOpen` if you want to open tagbar for active Java source code 
-* You may use Omni Completion also, like `import org.<C-X><C-O`. When I say <C-X>, it means you press `Ctrl with X`.
+* You may use Omni Completion also, like `import org.<C-X><C-O>`. When I say `<C-X>`, it means you press `Ctrl with X`.
 
 $HOME/.vim/vimrc
 ----------------

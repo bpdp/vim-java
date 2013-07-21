@@ -13,7 +13,7 @@ Here's How
 
 * You have [Gradle](http://gradle.org) installed and run correctly, right?
 * Using Vim for all development tasks is cool, but even cooler if you use [Pathogen](https://github.com/tpope/vim-pathogen). If you don't, go away..
-* Put all these plugins in `$HOME/.vim/bundle` just as Pathogen told you:
+* Put all these plugins in `$HOME/.vim/bundle` just as Pathogen told you (see also `$HOME/.vim/vimrc` below):
 
     * [groovy.vim](https://github.com/vim-scripts/groovy.vim)
     * [indentLine](https://github.com/Yggdroot/indentLine)
@@ -23,8 +23,15 @@ Here's How
     * [nerdtree](https://github.com/scrooloose/nerdtree)
     * [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
     * [vim-smartusline](https://github.com/molok/vim-smartusline)
+    * Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
+    * Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
+    * Issue command `source classpath.sh`
+    * gvim, and you are on your way.
+    * Use `:TagbarOpen` if you want to open tagbar for active Java source code 
+    * You may use Omni Completion also, like `import org.<C-X><C-O`. When I say <C-X>, it means you press `Ctrl with X`.
 
-* Some configuration in `$HOME/.vim/vimrc`:
+$HOME/.vim/vimrc`:
+------------------
 
     execute pathogen#infect()
     
@@ -34,14 +41,14 @@ Here's How
     set ofu=syntaxcomplete#Complete
     
     if has("gui_running")
-      colorscheme zenbu     rn
+      colorscheme zenburn
     else
       colorscheme slate
     endif
     
     set smartindent
     set tabstop=2
-    set shiftwid  th=2
+    set shiftwidth=2
     set expandtab
     set cursorline
     
@@ -97,12 +104,6 @@ Here's How
     
     setlocal completefunc=javacomplete#CompleteParamsInfo 
 
-* Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
-* Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
-* Issue command `source classpath.sh`
-* gvim, and you are on your way.
-* Use `:TagbarOpen` if you want to open tagbar for active Java source code 
-* You may use Omni Completion also, like `import org.<C-X><C-O`.
 
 Screenshots?
 ------------

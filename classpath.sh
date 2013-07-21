@@ -1,0 +1,1 @@
+export CLASSPATH=$CLASSPATH:lib/*

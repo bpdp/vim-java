@@ -23,15 +23,15 @@ Here's How
     * [nerdtree](https://github.com/scrooloose/nerdtree)
     * [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
     * [vim-smartusline](https://github.com/molok/vim-smartusline)
-    * Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
-    * Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
-    * Issue command `source classpath.sh`
-    * gvim, and you are on your way.
-    * Use `:TagbarOpen` if you want to open tagbar for active Java source code 
-    * You may use Omni Completion also, like `import org.<C-X><C-O`. When I say <C-X>, it means you press `Ctrl with X`.
+* Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
+* Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
+* Issue command `source classpath.sh`
+* gvim, and you are on your way.
+* Use `:TagbarOpen` if you want to open tagbar for active Java source code 
+* You may use Omni Completion also, like `import org.<C-X><C-O`. When I say <C-X>, it means you press `Ctrl with X`.
 
-$HOME/.vim/vimrc`:
-------------------
+$HOME/.vim/vimrc
+----------------
 
     execute pathogen#infect()
     

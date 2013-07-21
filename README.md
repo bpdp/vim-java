@@ -19,10 +19,11 @@ Here's How
     * [indentLine](https://github.com/Yggdroot/indentLine)
     * [javacomplete](ttps://github.com/adragomir/javacomplete) 
     * [syntastic](https://github.com/scrooloose/syntastic)
-    * [taskbar](https://github.com/majutsushi/tagbar)
+    * [tagbar](https://github.com/majutsushi/tagbar)
     * [nerdtree](https://github.com/scrooloose/nerdtree)
     * [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
     * [vim-smartusline](https://github.com/molok/vim-smartusline)
+
 * Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
 * Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
 * Issue command `source classpath.sh`

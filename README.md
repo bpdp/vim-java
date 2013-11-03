@@ -1,7 +1,7 @@
 Vim for Java Development
 ========================
 
-A skeleton of Vim for Java Development with Gradle.
+A skeleton of Vim for Java Development with Gradle. This is shell-oriented thing, probably not of your taste. If you prefer doing Java development mostly in terminal/shell, you will feel right at home. I use [GNU Bash](http://www.gnu.org/software/bash/). You may make any adjustment in `classpath.sh` and `source classpath.sh` command below if you use other shells (tcsh, zsh, ksh, /etc).
 
 License
 -------
@@ -11,20 +11,20 @@ I don't take credit for all Vim plugins described here. I only put them in one p
 Here's How
 ----------
 
-* You have [Gradle](http://gradle.org) installed and run correctly, right?
-* Using Vim for all development tasks is cool, but even cooler if you use [Pathogen](https://github.com/tpope/vim-pathogen). If you don't, go away..
+* You have [Gradle](http://gradle.org) [installed and run correctly](http://www.gradle.org/docs/current/userguide/installation.html), right?
+* Using Vim for all development tasks is cool, but even cooler if you use [Pathogen](https://github.com/tpope/vim-pathogen). If you don't, well, you should...
 * Put all these plugins in `$HOME/.vim/bundle` just as Pathogen told you (see also `$HOME/.vim/vimrc` below):
 
     * [groovy.vim](https://github.com/vim-scripts/groovy.vim)
     * [indentLine](https://github.com/Yggdroot/indentLine)
-    * [javacomplete](ttps://github.com/adragomir/javacomplete) 
+    * [javacomplete](https://github.com/adragomir/javacomplete) 
     * [syntastic](https://github.com/scrooloose/syntastic)
     * [tagbar](https://github.com/majutsushi/tagbar)
     * [nerdtree](https://github.com/scrooloose/nerdtree)
     * [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
     * [vim-smartusline](https://github.com/molok/vim-smartusline)
 
-* Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`.
+* Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`. See `build.gradle` file for example, or if you want, you may open [Dependency Management chapter](http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html) in Gradle manual.
 * Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
 * Issue command `source classpath.sh`
 * gvim, and you are on your way.

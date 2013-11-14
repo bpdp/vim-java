@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'project-report'
  
 version = "0.0.1"
 group = "whatever.group.change.it"

@@ -15,7 +15,7 @@ Here's How
 * Using Vim for all development tasks is cool, but even cooler if you use [Pathogen](https://github.com/tpope/vim-pathogen). If you don't, well, you should...
 * Put all these plugins in `$HOME/.vim/bundle` just as Pathogen told you (see also `$HOME/.vim/vimrc` below):
 
-    * [groovy.vim](https://github.com/vim-scripts/groovy.vim)
+		* [vim-gradle](https://github.com/tfnico/vim-gradle)
     * [indentLine](https://github.com/Yggdroot/indentLine)
     * [javacomplete](https://github.com/adragomir/javacomplete) 
     * [syntastic](https://github.com/scrooloose/syntastic)

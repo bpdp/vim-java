@@ -15,14 +15,14 @@ Here's How
 * Using Vim for all development tasks is cool, but even cooler if you use [Pathogen](https://github.com/tpope/vim-pathogen). If you don't, well, you should...
 * Put all these plugins in `$HOME/.vim/bundle` just as Pathogen told you (see also `$HOME/.vim/vimrc` below):
 
-		* [vim-gradle](https://github.com/tfnico/vim-gradle)
-    * [indentLine](https://github.com/Yggdroot/indentLine)
-    * [javacomplete](https://github.com/adragomir/javacomplete) 
-    * [syntastic](https://github.com/scrooloose/syntastic)
-    * [tagbar](https://github.com/majutsushi/tagbar)
-    * [nerdtree](https://github.com/scrooloose/nerdtree)
-    * [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
-    * [vim-smartusline](https://github.com/molok/vim-smartusline)
+	* [indentLine](https://github.com/Yggdroot/indentLine)
+	* [vim-gradle](https://github.com/tfnico/vim-gradle)
+	* [javacomplete](https://github.com/adragomir/javacomplete) 
+	* [syntastic](https://github.com/scrooloose/syntastic)
+	* [tagbar](https://github.com/majutsushi/tagbar)
+	* [nerdtree](https://github.com/scrooloose/nerdtree)
+	* [vim-colorschemes](https://github.com/flazz/vim-colorschemes) - life isn't beautiful without color :p
+	* [vim-smartusline](https://github.com/molok/vim-smartusline)
 
 * Put all of the Gradle dependencies into build.gradle then issue `gradle build`. That way, all of dependencies will be downloaded in `$HOME/.gradle`. See `build.gradle` file for example, or if you want, you may open [Dependency Management chapter](http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html) in Gradle manual.
 * Issue command `gradle copyToLib` to copy all of the dependencies into lib dir
